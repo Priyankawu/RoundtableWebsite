@@ -1,24 +1,28 @@
 /****** Layout Section ******/
 
 :root {
-  --main-bg-color: #eeeff0;
-  --text-color-dark: #3d4553;
-  --text-color-light: #eeeff0;
-  --color-pop: #e9cf5c;
-  --navbar-color: #3d4553;
-  --neutral-color: #99a49e;
+    --main-bg-color: #eeeff0;
+    --text-color-dark: #3d4553;
+    --text-color-light: #eeeff0;
+    --color-pop: #e9cf5c;
+    --navbar-color: #3d4553;
+    --neutral-color: #99a49e;
+    --yellowish: #f7fd04;
+    --maroon: #ba135d;
 }
 
 html {
   position: relative;
   min-height: 100%;
+ 
 }
 
 body {
-  height: 100%;
-  margin: 0px auto;
-  padding-bottom: 50px;
-  background-color: var(--main-bg-color);
+    height: 100%;
+    margin: 0px auto;
+    padding-bottom: 50px;
+    /*background-color: var(--main-bg-color);*/
+    background-color: var(--yellowish);
 }
 
 #navbar {
@@ -99,7 +103,8 @@ body {
   height: 500px;
   background: radial-gradient(
     circle at 400px 400px,
-    var(--color-pop),
+    /*var(--color-pop),*/
+    var(--maroon),
     rgba(0, 0, 0, 0)
   );
   border-radius: 50%;
@@ -136,6 +141,7 @@ body {
   width: 50%;
   height: 100%;
   color: var(--text-color-dark);
+  background-color: var(--maroon);
 }
 
 .about-text{
